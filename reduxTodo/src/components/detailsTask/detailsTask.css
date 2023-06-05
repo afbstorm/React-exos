@@ -1,0 +1,116 @@
+/* Create a style for my detailsTask component it will be compose of a div container, a title, a description and a priority in red, blue or green dependant of the priority which will be handle by css class */
+
+.detailsTask__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 0 auto;
+  width: 75%;
+  border: 2px solid #ccc;
+  padding: 2rem;
+}
+
+.detailsTask {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.detailsTask__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.detailsTask__description {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.detailsTask__priority {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.detailsTask__priority--high {
+  color: red;
+  font-weight: bolder;
+}
+
+.detailsTask__priority--normal {
+  color: green;
+  font-weight: bolder;
+}
+
+.detailsTask__button__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+.detailsTask__button {
+  width: 15%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.detailsTask__button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.detailsTask__button--delete {
+  width: 25%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.detailsTask__button--delete:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.detailsTask__button--edit {
+  width: 25%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.detailsTask__button--edit:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.detailsTask__button--back {
+  width: 25%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.detailsTask__button--back:hover {
+  background-color: #000;
+  color: #fff;
+}
