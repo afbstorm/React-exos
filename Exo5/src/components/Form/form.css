@@ -1,0 +1,19 @@
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 0.5rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.btn-submit {
+    position: relative;
+    margin-left: 65%;
+    margin-top: 0;
+    width: 10rem;
+}
+
+h2 {
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}

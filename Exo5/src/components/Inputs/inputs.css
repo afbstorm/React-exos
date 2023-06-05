@@ -1,0 +1,14 @@
+.input-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+
+.input-text label {
+    font-size: 0.75rem;
+}
+
+.input-text input {
+    width: 15rem;
+}

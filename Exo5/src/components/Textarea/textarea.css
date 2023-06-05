@@ -1,0 +1,9 @@
+.input-textarea {
+    width: 20rem;
+    display: flex;
+    gap: 2.8rem;
+}
+
+.input-textarea, textarea {
+    width: 26rem;
+}

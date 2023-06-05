@@ -1,0 +1,10 @@
+.input-select {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3.7rem;
+}
+
+.input-text label {
+    font-size: 0.75rem;
+}
